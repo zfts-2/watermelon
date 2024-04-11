@@ -3,7 +3,7 @@ from sklearn import linear_model
 from sklearn.model_selection import LeaveOneOut
 from sklearn.model_selection import cross_val_score
 
-data_path = r'C:\Users\hanmi\Documents\xiguabook\Transfusion.txt'
+data_path = 'Transfusion.txt'
 
 data = np.loadtxt(data_path, delimiter=',').astype(int)
 
